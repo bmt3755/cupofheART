@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CupofheART</title>
+    
+<!-- build:css css/main.css -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+<link rel="stylesheet" href="css/styles.css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- endbuild -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+</head>
+<body>
+    <header id="home">
+        <div class="container">
+            <div class="coffee-menu">
+                <i class="fas fa-bars toggle"></i>
+                <i class="fas fa-times toggle"></i>
+            </div>
+            <nav class="d-flex align-items-center justify-content-center justify-content-lg-between">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid" src="images/logo.png" alt="">
+                </a>
+                <ul class="nav-list text-center p-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shop">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="main-text w-100 text-white px-2 px-sm-0">
+                <h1 class="display-6">More Espresso, Less Depresso</h1>
+                <p class="lead mb-4">Life happens, Coffee helps!</p>
+                <a class="btn px-5 mr-2" href="">Delivery</a>
+                <a class="btn px-5 ml-2" href="">Pickup</a>
+                <a class="btn px-5 ml-2" href="">Reserve</a>
+            </div>     
+        
+        </div> 
+        <!-- ****************************todo Video in header container div(todo is just for the comment color)******************************* -->
+        <video autoplay loop play-inline muted class="bigScreenVideo">
+            <source src="images/videos/coffeeArt.mp4">
+        </video> 
+    </header>
+    
+
+<!-- ****************************todo About section, menu section, shop Section, footer(todo is just for the comment color)******************************* -->
+<main>
+    <!-- *----------------------------@@@@@@@@ ABOUT SECTION @@@@@@@@------------------------------>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row align-items-lg-center">
+                <div class="col-12 col-md-6 text-center text-md-left" data-aos="fade-right">
+                    <div class="section-heading mb-3">
+                        <h4>Discover</h4>
+                        <h1 class="display-4">Our Story</h1>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Repudiandae maiores nulla quo velit sed in architecto ab facilis vitae. 
+                        Tempora sunt placeat labore hic ut quibusdam quia! Accusantium, laudantium neque.
+                    </p>
+                    <a class="btn mt-4 mb-5 mb-md-0" href="#">Find out more</a>
+                </div>
+                <div class="col-12 col-md-6" data-aos="fade-left">
+                    <img class="img-fluid" src="images/about1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- *----------------------------@@@@@@@@ MENU SECTION @@@@@@@@------------------------------>
+    <section class="menu" id="menu">
+        <div class="row text-center text-white">
+            <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-up">
+                <div class="cafe-info">
+                    <i class="far fa-clock mb-3"></i>
+                    <h1 class="mb-4">Hours of Operation</h1>
+                    <p>Mon to Fri: 8.00am - 6.00pm</p>
+                    <p>Sat to Sun: 8.00am - 1.00pm</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-up">
+                <div class="cafe-info">
+                    <i class="fas fa-map-marked-alt mb-3"></i>
+                    <h1 class="mb-4">Our Location</h1>
+                    <address> 1234 Sample Address <br>
+                    Westlake, OH 12345</address>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-up">
+                <div class="cafe-info">
+                    <i class="fas fa-mobile-alt mb-3"></i>
+                    <h1 class="mb-4">Contact Us</h1>
+                    <p>Phone #: (123) 456-7891</p>
+                    <p>Email: SampleEmail@email.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- ****************************Giving Break after Shop info******************************* -->       
+        <hr class="mt-5">
+
+        <!-- *----------------------------Menu section - Menu items------------------------------>        
+        <div class="container-fluid p-0"> 
+            <div class="section-heading my-5 text-center"> <!-- Menu Section Heading -->
+                <h4 class="text-white">We brew with love</h4>
+                <h1 class="display-4 text-white">The Menu</h1>
+            </div>
+            <!-- *----------------------------Row-1------------------------------>    
+            <div class="row no-gutters">
+                <!-- *----------------------------Column-set #1------------------------------>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1">
+                    <img class="img-fluid" src="images/black-coffee.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2 point-left">
+                    <div class="menu-item-info">
+                        <h6>2$</h6>
+                        <h1>Black Coffee</h1>
+                        <p>A tall, dark, rich cup of coffee.</p>
+                        <a href="" class="btn mt-3 d-none d-xl-block">More</a>
+                    </div>
+                </div>
+                <!-- *----------------------------Column-set #2------------------------------>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-3">
+                    <img class="img-fluid" src="images/cafe-latte.jpg">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4 point-left">
+                    <div class="menu-item-info">
+                        <h6>2$</h6>
+                        <h1>Cafe Latte</h1>
+                        <p>The sweet smell of the morning.</p>
+                        <a href="" class="btn mt-3 d-none d-xl-block">More</a>
+                    </div>
+                </div>
+                <!-- *----------------------------Column-set #3------------------------------>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5">
+                    <img class="img-fluid" src="images/caffe-mocha.jpg">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6 point-left">
+                    <div class="menu-item-info">
+                        <h6>2$</h6>
+                        <h1>Cafe Mocha</h1>
+                        <p>Coffee and chocolate - The inventor of mocha should be sainted.</p>
+                        <a href="" class="btn mt-3 d-none d-xl-block">More</a>
+                    </div>
+                </div>
+            <!-- *----------------------------Row-2------------------------------>    
+            <div class="row no-gutters">
+                <!-- *----------------------------Column-set #4------------------------------>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2">
+                    <img class="img-fluid" src="images/cappucino-1.jpg">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 point-right">
+                    <div class="menu-item-info">
+                        <h6>2$</h6>
+                        <h1>Cappucino</h1>
+                        <p>A bad day with coffee is better than a good day without it.</p>
+                        <a href="" class="btn mt-3 d-none d-xl-block">More</a>
+                    </div>
+                </div>
+                <!-- *----------------------------Column-set #5------------------------------>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4 ">
+                    <img class="img-fluid" src="images/cold-brew.jpg">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-3 point-right">
+                    <div class="menu-item-info">
+                        <h6>2$</h6>
+                        <h1>Cold Brew</h1>
+                        <p>Come to the dark side, cold brew is back!</p>
+                        <a href="" class="btn mt-3 d-none d-xl-block">More</a>
+                    </div>
+                </div>
+                <!-- *----------------------------Column-set #6------------------------------>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6">
+                    <img class="img-fluid" src="images/dalgona.jpg">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5 point-right">
+                    <div class="menu-item-info">
+                        <h6>2$</h6>
+                        <h1>Dalgona</h1>
+                        <p>Coffee is the answer. I don't remember the question.</p>
+                        <a href="" class="btn mt-3 d-none d-xl-block">More</a>
+                    </div>
+                </div>           
+            </div>
+    </section>
+
+    <!-- *----------------------------@@@@@@@@ ARTIST SECTION @@@@@@@@------------------------------>
+    <section class="artist" id="artist">
+        <div class="container"> <!-- Chef Section Heading -->
+            <div class="section-heading my-5 text-center">
+                <h4>Meet</h4>
+                <h1 class="display-4">Our Artists</h1>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid" src="images/1.jpg" data-aos="fade-right">
+                    <div class="card-body">
+                        <h1>Biance Sage</h1>
+                        <h6>Animal Art Painter</h6>
+                        <p>Until one has loved an animal, a part of one's soul remains unawakened.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid" src="images/2.jpg" data-aos="fade-up">
+                    <div class="card-body">
+                        <h1>Lily Farah</h1>
+                        <h6>Art Teacher</h6>
+                        <p>I found I could say things with color and shapes that I couldn't say any other way - things I had no words for.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid" src="images/3.jpg" data-aos="fade-left">
+                    <div class="card-body">
+                        <h1>Conner Pitt</h1>
+                        <h6>Sculptor</h6>
+                        <p>Every block of stone has a statue inside it and it is the task of the sculptor to discover it.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid" src="images/4.jpg" data-aos="fade-left">
+                    <div class="card-body">
+                        <h1>Bella Turner</h1>
+                        <h6>Art Director</h6>
+                        <p>The object of art is not to reproduce reality, but to create a reality of the same intensity.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid" src="images/5.jpg" data-aos="fade-down">
+                    <div class="card-body">
+                        <h1>Elmer Rowe</h1>
+                        <h6>Graphic Artist</h6>
+                        <p>There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid" src="images/6.png" data-aos="fade-right">
+                    <div class="card-body">
+                        <h1>Joseph Peters</h1>
+                        <h6>Professional Painter</h6>
+                        <p>If you could say it in words, there would be no reason to paint.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- *----------------------------@@@@@@@@ FOOTER @@@@@@@@------------------------------>
+    <footer class="text-center py-5">
+        &copy; cupofheART 2021
+    </footer>
+</main>
+
+<!-- build:js js/main.js -->    
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>    
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/scripts.js" type="text/javascript"></script>
+<!-- endbuild -->
+</body>
+</html>

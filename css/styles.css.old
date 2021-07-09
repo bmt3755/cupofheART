@@ -1,0 +1,30 @@
+
+header.masthead {
+    top: 250px;
+    left: -150px;
+    width: 500px;
+    position: relative;
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    
+  }
+.nav-link
+{
+    color: white;
+}
+video
+{
+    position:absolute;
+    left: 00px;
+    bottom: 00px;
+    z-index: -2;
+    max-width: 100%;
+    max-height: 100%;
+    
+}

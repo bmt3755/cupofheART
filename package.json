@@ -1,0 +1,35 @@
+{
+  "name": "cupofheart",
+  "version": "1.0.0",
+  "description": "This is a website I created as a part of nucamp full stack development course",
+  "main": "scripts.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run imagemin && npm run usemin",
+    "lite": "lite-server",
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "imagemin": "imagemin images/* -o dist/images"
+  },
+  "author": "Manjeera",
+  "license": "ISC",
+  "devDependencies": {
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.6.1",
+    "node-sass": "^4.14.1",
+    "node-video-lib": "^2.2.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "3.0.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
